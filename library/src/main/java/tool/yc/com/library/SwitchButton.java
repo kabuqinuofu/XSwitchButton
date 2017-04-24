@@ -148,7 +148,8 @@ public class SwitchButton extends CompoundButton {
 
         TypedArray ta = attrs == null ? null : getContext().obtainStyledAttributes(attrs, R.styleable.SwitchButton);
         if (ta != null) {
-            thumbDrawable = ta.getDrawable(R.styleable.SwitchButton_swThumbDrawable);
+//            thumbDrawable = ta.getDrawable(R.styleable.SwitchButton_swThumbDrawable);
+            thumbDrawable = getResources().getDrawable(R.drawable.ios_thumb_selector);
             thumbColor = ta.getColorStateList(R.styleable.SwitchButton_swThumbColor);
             margin = ta.getDimension(R.styleable.SwitchButton_swThumbMargin, margin);
             marginLeft = ta.getDimension(R.styleable.SwitchButton_swThumbMarginLeft, margin);
@@ -159,7 +160,8 @@ public class SwitchButton extends CompoundButton {
             thumbHeight = ta.getDimension(R.styleable.SwitchButton_swThumbHeight, thumbHeight);
             thumbRadius = ta.getDimension(R.styleable.SwitchButton_swThumbRadius, Math.min(thumbWidth, thumbHeight) / 2.f);
             backRadius = ta.getDimension(R.styleable.SwitchButton_swBackRadius, thumbRadius + density * 2f);
-            backDrawable = ta.getDrawable(R.styleable.SwitchButton_swBackDrawable);
+//            backDrawable = ta.getDrawable(R.styleable.SwitchButton_swBackDrawable);
+            backDrawable = getResources().getDrawable(R.drawable.ios_back_drawable);
             backColor = ta.getColorStateList(R.styleable.SwitchButton_swBackColor);
             backMeasureRatio = ta.getFloat(R.styleable.SwitchButton_swBackMeasureRatio, backMeasureRatio);
             animationDuration = ta.getInteger(R.styleable.SwitchButton_swAnimationDuration, animationDuration);
