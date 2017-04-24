@@ -1,5 +1,6 @@
 # XSwitchButton
-![image](https://github.com/kabuqinuofu/XSwitchButton/raw/master/app/src/main/res/Img/ios_style_switchbutton.png)</br>
+
+![image](https://github.com/kabuqinuofu/XSwitchButton/blob/master/app/src/main/res/img/style.gif)</br>
 
 gradle依赖: </br>
 dependencies { </br>
