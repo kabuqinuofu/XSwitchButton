@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.CompoundButton;
+import android.widget.Toast;
 
 import tool.yc.com.library.SwitchButton;
 
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean isCheck) {
                 Log.e("YC", "选中状态：" + isCheck);
+                Toast.makeText(MainActivity.this, "" + isCheck, Toast.LENGTH_SHORT).show();
             }
         });
     }
