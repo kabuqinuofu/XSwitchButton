@@ -11,9 +11,9 @@
         android:background="@android:color/white"
         android:gravity="center_vertical"
         android:orientation="horizontal"
-        android:paddingTop="5dp"
         android:paddingBottom="5dp"
-        android:paddingLeft="10dp">
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp">
 
         <TextView
             android:layout_width="0dp"
@@ -27,14 +27,14 @@
             style="@style/SwitchButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:kswAnimationDuration="300"
-            app:kswBackDrawable="@drawable/ios_back_drawable"
-            app:kswBackMeasureRatio="1.4"
-            app:kswThumbDrawable="@drawable/ios_thumb_selector"
-            app:kswThumbMarginBottom="-8dp"
-            app:kswThumbMarginLeft="-5dp"
-            app:kswThumbMarginRight="-5dp"
-            app:kswThumbMarginTop="-2.5dp" />
+            app:swAnimationDuration="300"
+            app:swBackDrawable="@drawable/ios_back_drawable"
+            app:swBackMeasureRatio="1.4"
+            app:swThumbDrawable="@drawable/ios_thumb_selector"
+            app:swThumbMarginBottom="-8dp"
+            app:swThumbMarginLeft="-8dp"
+            app:swThumbMarginRight="-8dp"
+            app:swThumbMarginTop="-8dp" />
     </LinearLayout>
 
 </LinearLayout>
