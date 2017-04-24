@@ -1,15 +1,15 @@
 <resources>
 
 	<style name="SwitchButtonMD">
-		<item name="kswThumbDrawable">@drawable/ksw_md_thumb</item>
-		<item name="kswBackColor">@color/ksw_md_back_color</item>
-		<item name="kswBackMeasureRatio">1.45</item>
-		<item name="kswThumbMarginLeft">-16dp</item>
-		<item name="kswThumbMarginTop">-14dp</item>
-		<item name="kswThumbMarginRight">-16dp</item>
-		<item name="kswThumbMarginBottom">-14dp</item>
-		<item name="kswThumbWidth">@dimen/ksw_md_thumb_ripple_size</item>
-		<item name="kswThumbHeight">@dimen/ksw_md_thumb_ripple_size</item>
+		<item name="swThumbDrawable">@drawable/sw_md_thumb</item>
+		<item name="swBackColor">@color/sw_md_back_color</item>
+		<item name="swBackMeasureRatio">1.45</item>
+		<item name="swThumbMarginLeft">-16dp</item>
+		<item name="swThumbMarginTop">-14dp</item>
+		<item name="swThumbMarginRight">-16dp</item>
+		<item name="swThumbMarginBottom">-14dp</item>
+		<item name="swThumbWidth">@dimen/sw_md_thumb_ripple_size</item>
+		<item name="swThumbHeight">@dimen/sw_md_thumb_ripple_size</item>
 	</style>
 
 </resources>
